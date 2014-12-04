@@ -5,7 +5,7 @@ OBJECTS=$(SOURCES:.c=.o)
 
 
 all: 
-	$(CC) $(CFLAGS) -o ex17 ex17.c
+	$(CC) $(CFLAGS) -o ex18 ex18.c
 
 clean:
-	rm -f test ex17
+	rm -f test ex18
