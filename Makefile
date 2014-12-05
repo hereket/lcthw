@@ -1,11 +1,10 @@
-CC=gcc
 CFLAGS=-Wall -g
-SOURCES=ex1.c
-OBJECTS=$(SOURCES:.c=.o)
+CC=gcc
 
 
-all: 
-	$(CC) $(CFLAGS) -o ex18 ex18.c
+all: ex19
+
+ex19: object.o
 
 clean:
-	rm -f test ex18
+	rm -f ex19
