@@ -9,3 +9,10 @@ ex18:
 ex20:
   - How to get caller function name
 
+
+
+
+
+ERRORS:
+   ex32: In Makefile the line  "tests: CFLAGS += $(TARGET)" should be changed to"tests: LDLIBS += $(TARGET)" to compile correctly.
+
