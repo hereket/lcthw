@@ -53,7 +53,7 @@ void Stats_sample(Stats *st, double s)
 
 void Stats_dump(Stats *st)
 {
-  fprintf(stderr, "sum: %f, sumsq: %f, n: %ld, min: %f, max: %f, mean: %f, std: %f",
+  fprintf(stderr, "sum: %f, sumsq: %f, n: %ld, min: %f, max: %f, mean: %f, std: %f\n",
       st->sum, st->sumsq, st->n, st->min, st->max,
       Stats_mean(st), Stats_stddev(st));
 }

@@ -117,7 +117,7 @@ char *all_tests()
   mu_run_test(test_find_and_scan);
   
   // this is an idiom for commenting out section in code
-#if 1
+#if 0
   mu_run_test(test_scan_performance);
   mu_run_test(test_find_performance);
   mu_run_test(test_binstr_performance);
